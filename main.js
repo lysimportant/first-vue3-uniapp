@@ -1,5 +1,6 @@
 import App from './App'
-
+import netWork from './utils/network'
+netWork()
 // #ifndef VUE3
 import Vue from 'vue'
 Vue.config.productionTip = false
